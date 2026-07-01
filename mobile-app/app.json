@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "ONDICHO SOLUTION",
+    "slug": "ondicho-solution",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.ondicho.solution"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ondicho.solution"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-linear-gradient"
+      ]
+    ]
+  }
+}

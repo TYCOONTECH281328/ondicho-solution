@@ -1,0 +1,23 @@
+{
+  "name": "ondicho-solution",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.71.6",
+    "expo": "^48.0.0",
+    "expo-linear-gradient": "^12.0.0",
+    "expo-linking": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
