@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ONDICHO SOLUTION</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f2f6ff;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#0066ff,#00c6ff);
+color:white;
+padding:30px;
+text-align:center;
+}
+
+header h1{
+font-size:35px;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:18px;
+margin:20px 0;
+box-shadow:0 5px 15px #ddd;
+}
+
+h2{
+color:#0066ff;
+margin-bottom:15px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+}
+
+.product{
+border:1px solid #ddd;
+padding:15px;
+border-radius:12px;
+}
+
+.price{
+color:green;
+font-weight:bold;
+font-size:20px;
+}
+
+button{
+background:#25D366;
+color:white;
+border:none;
+padding:14px 25px;
+border-radius:8px;
+cursor:pointer;
+}
+
+input,select{
+width:100%;
+padding:12px;
+margin:8px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+.payment{
+background:#fff8dc;
+text-align:center;
+}
+
+.till{
+font-size:35px;
+font-weight:bold;
+color:#ff6600;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>📡 ONDICHO SOLUTION</h1>
+<p>Fast Data • Minutes • SMS Activation</p>
+</header>
+
+
+<div class="container">
+
+
+<div class="card payment">
+
+<h2>💳 M-Pesa Payment</h2>
+
+<p>Buy Goods & Services</p>
+
+<div class="till">4773289</div>
+
+<p>After payment fill the order form below</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>🌐 DATA OFFERS</h2>
+
+<div class="products">
+
+<div class="product"><h3>1.5GB</h3><p>3 HRS</p><p class="price">KSh 50</p></div>
+
+<div class="product"><h3>350MB</h3><p>7 DAYS</p><p class="price">KSh 49</p></div>
+
+<div class="product"><h3>2.5GB</h3><p>7 DAYS</p><p class="price">KSh 300</p></div>
+
+<div class="product"><h3>6GB</h3><p>7 DAYS</p><p class="price">KSh 700</p></div>
+
+<div class="product"><h3>1GB</h3><p>1 HR</p><p class="price">KSh 19</p></div>
+
+<div class="product"><h3>250MB</h3><p>24 HRS</p><p class="price">KSh 20</p></div>
+
+<div class="product"><h3>1GB</h3><p>24 HRS</p><p class="price">KSh 99</p></div>
+
+<div class="product"><h3>1.25GB</h3><p>Until Midnight</p><p class="price">KSh 55</p></div>
+
+</div>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>📞 MINUTES OFFERS</h2>
+
+<div class="products">
+
+<div class="product"><h3>20 MINS</h3><p>3 HRS</p><p class="price">KSh 21</p></div>
+
+<div class="product"><h3>20 MINS</h3><p>3 HRS</p><p class="price">KSh 22</p></div>
+
+<div class="product"><h3>50 MINS</h3><p>Until Midnight</p><p class="price">KSh 51</p></div>
+
+<div class="product"><h3>50 MINS</h3><p>2 HRS</p><p class="price">KSh 31</p></div>
+
+<div class="product"><h3>43 MINS</h3><p>3 HRS</p><p class="price">KSh 24</p></div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>💬 SMS OFFERS</h2>
+
+<div class="products">
+
+<div class="product"><h3>20 SMS</h3><p>Daily Unlimited</p><p class="price">KSh 5</p></div>
+
+<div class="product"><h3>200 SMS</h3><p>Daily Unlimited</p><p class="price">KSh 10</p></div>
+
+<div class="product"><h3>1000 SMS</h3><p>Weekly</p><p class="price">KSh 30</p></div>
+
+<div class="product"><h3>1500 SMS</h3><p>Weekly</p><p class="price">KSh 105</p></div>
+
+<div class="product"><h3>3500 SMS</h3><p>Monthly</p><p class="price">KSh 210</p></div>
+
+</div>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>🛒 Place Order</h2>
+
+
+<input id="name" placeholder="Your Name">
+
+<input id="phone" placeholder="Phone Number">
+
+
+<select id="offer">
+
+<option>1.5GB (3HRS) - KSh 50</option>
+<option>350MB (7 DAYS) - KSh 49</option>
+<option>2.5GB (7 DAYS) - KSh 300</option>
+<option>6GB (7 DAYS) - KSh 700</option>
+<option>1GB (1 HR) - KSh 19</option>
+<option>250MB (24 HRS) - KSh 20</option>
+<option>1GB (24 HRS) - KSh 99</option>
+<option>1.25GB Until Midnight - KSh 55</option>
+
+<option>20 MINS (3HRS) - KSh 21</option>
+<option>20 MINS (3HRS) - KSh 22</option>
+<option>50 MINS Until Midnight - KSh 51</option>
+<option>50 MINS (2HRS) - KSh 31</option>
+<option>43 MINS (3HRS) - KSh 24</option>
+
+<option>20 SMS Daily Unlimited - KSh 5</option>
+<option>200 SMS Daily Unlimited - KSh 10</option>
+<option>1000 SMS Weekly - KSh 30</option>
+<option>1500 SMS Weekly - KSh 105</option>
+<option>3500 SMS Monthly - KSh 210</option>
+
+</select>
+
+
+<button onclick="order()">Order Now</button>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>✅ Why Choose Us?</h2>
+
+<p>✔ Instant Activation</p>
+<p>✔ Affordable Packages</p>
+<p>✔ 24/7 Support</p>
+
+</div>
+
+
+</div>
+
+
+
+<footer>
+
+<h3>ONDICHO SOLUTION</h3>
+
+<p>📞 0790329385</p>
+
+</footer>
+
+
+
+<script>
+
+function order(){
+
+let name=document.getElementById("name").value;
+
+let phone=document.getElementById("phone").value;
+
+let offer=document.getElementById("offer").value;
+
+
+let message =
+"Hello ONDICHO SOLUTION,%0A%0A"+
+"I want to order:%0A"+
+offer+
+"%0A%0AName: "+
+name+
+"%0APhone: "+
+phone;
+
+
+window.open(
+"https://wa.me/254714104723?text="+message,
+"_blank"
+);
+
+}
+
+</script>
+
+
+</body>
+</html>
